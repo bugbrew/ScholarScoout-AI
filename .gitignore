@@ -1,0 +1,18 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+secrets/
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+"@ | Set-Content .gitignore
+curator/*.db
+curator/*.sqlite
+curator/*.sqlite3
